@@ -1,0 +1,49 @@
+
+.header {
+  background-color: #00FFFF;
+  justify-content: flex-start;
+  height: 100px;
+  margin: 5px;
+  }
+  
+  .flex-container{
+    display: flex;
+    width: 100%;
+  }
+  
+  .first {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .nav {
+    height: 100px;
+    background: #6495ED;
+    margin: 0 5px 5px 5px;
+  }
+
+  .ads {
+    height: 200px;
+    background: #00CED1;
+    margin: 0 5px 5px 5px;
+  }
+  
+  .second {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .article {
+    min-height: 200px;
+    background: #1E90FF;
+    margin: 0 5px 5px 0;
+  }
+
+  .footer {
+    background: #00BFFF;
+    height: 100px;
+    margin: 0 5px 5px 0;
+  }
+
